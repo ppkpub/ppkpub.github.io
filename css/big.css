@@ -1,0 +1,22 @@
+﻿/* PC大屏幕 big star*/
+@media screen and (min-width: 1200px) {
+
+.visible-lg {display: block !important;}
+.visible-lg-block {display: block !important;}
+.visible-lg-inline {display: inline !important;}
+.visible-lg-inline-block {display: inline-block !important;}
+.hidden-lg{display:none !important;}
+
+.wrapin{
+	width:1200px;	
+}
+
+/*hm 首页*/
+
+/*hm 首页*/
+
+
+
+
+/* PC大屏幕 big end*/
+}

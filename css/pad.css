@@ -1,0 +1,98 @@
+﻿/* 平板 pad start*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+body{
+	font-size:14px;	
+	background-size:100% auto;
+}
+
+.visible-sm{display: block !important;}
+.visible-sm-block {display: block !important;}
+.visible-sm-inline {display: inline !important;}
+.visible-sm-inline-block {display: inline-block !important;}
+.hidden-sm{display:none !important;}
+
+.wrapin{
+	width:750px;	
+}
+
+
+/*hm 首页*/
+
+.banner{
+	height: auto;
+	background:#e77817 url("../images/banner.jpg") no-repeat bottom center;
+	color:#fff;
+	padding-bottom:200px;
+	background-size:100% auto;
+}
+.ba_inf{
+	padding:25px 0 0 0;
+	width: 725px;
+}
+
+.hm_tx{
+	text-align: center;
+	padding:15px 0 10px 0;
+}
+
+.hm_com{
+	padding-top:10px;
+}
+.bs_item{
+	width: 750px;
+	margin:0 auto;
+	padding:16px 0 16px 0;
+	border-bottom:1px solid #eae9e9;
+	text-align:right;
+	position: relative;
+	height: 180px;
+}
+.bs_item:last-child{
+	border:0;
+}
+.bs_item img{
+	display: block;
+	width: 180px;
+	height: 180px;
+	float: right;
+}
+.bs_item dl{
+	padding:16px 0 0 0;
+	width: 560px;
+	float: left;
+}
+.hm_bs .more{
+	margin:10px auto 0 auto;
+}
+.hm_cy{
+	padding-bottom:20px;
+}
+
+.footer{
+	padding:15px 0;
+}
+.ft_left{
+	float:none;
+	width: 750px;	
+	padding-top:20px;
+}
+
+.ft_inf{
+	float: left;
+	width: 50%;
+	line-height: 34px;
+	padding-top:20px;
+}
+.ft_code{
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding-top:35px;
+	margin-right:0;
+}
+
+/*hm 首页*/
+
+
+/* 平板 pad end*/
+}

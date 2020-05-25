@@ -1,0 +1,42 @@
+﻿/* 小屏幕 small start*/
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+body{
+	font-size:14px;	
+	background-size:100% auto;
+}
+
+.visible-md{display: block !important;}
+.visible-md-block {display: block !important;}
+.visible-md-inline {display: inline !important;}
+.visible-md-inline-block {display: inline-block !important;}
+.hidden-md{display:none !important;}
+
+.wrapin{
+	width:970px;	
+}
+
+
+
+/*hm 首页*/
+
+.hm_tx{
+	text-align: center;
+	padding:30px 0 24px 0;
+}
+
+.hm_com a{	
+	display: inline-block;
+	height: 60px;
+	background:#f5f5f5;
+	border-radius:3px;
+	padding:0 20px;
+	min-width: 100px;
+	text-align: center;
+	margin:0 20px 30px 20px;
+}
+
+/*hm 首页*/
+
+
+/* 小屏幕 small end*/
+}

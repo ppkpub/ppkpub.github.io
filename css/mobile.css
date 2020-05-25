@@ -1,0 +1,243 @@
+﻿/* 手机 mobile start*/
+@media (max-width: 767px) {
+body{
+	background-size:100% auto;
+	font-size:13px;
+}
+
+.visible-xs{display: block !important;}
+.visible-xs-block {display: block !important;}
+.visible-xs-inline {display: inline !important;}
+.visible-xs-inline-block {display: inline-block !important;}
+.hidden-xs{display:none !important;}
+
+.wrapin{
+	width:100%;
+}
+
+
+/*hm 首页*/
+
+.banner{
+	height: auto;
+	background:#e77817 url("../images/banner-mb.jpg") no-repeat bottom center;
+	color:#fff;
+	padding-bottom:150px;
+	background-size:100% auto;
+}
+.ba_inf{
+	padding:10px;
+	width: auto;
+}
+.ba_inf dl{
+	line-height: 30px;
+}
+.ba_inf dt{
+	font-size:22px;
+	font-weight: bold;
+}
+.ba_inf dd{
+	font-size:18px;	
+}
+.ba_inf p{
+	padding-top:10px;
+	line-height: 1.8;
+	font-size:12px;
+}
+.ba_inf .more{
+	display: block;
+	width: 120px;
+	height: 44px;
+	line-height: 44px;
+	border-radius:3px;
+	background:#fff;
+	margin-top:20px;
+	text-align: center;
+	color:#e77817;
+}
+
+.hm_tx{
+	text-align: center;
+	padding:10px 0;
+
+}
+.tx_item{
+	width: 100%;
+	float: none;
+	clear: both;	
+}
+.tx_item dl{
+	padding:0 15px;
+}
+.tx_item dt{
+	height: 38px;
+	line-height: 38px;
+	font-size:16px;
+	font-weight: bold;
+	color:#363636;
+}
+.tx_item dd{	
+	line-height: 25px;
+	color:#999;
+}
+.hm_tx .more{
+	display: block;
+	width: 120px;
+	height: 44px;
+	line-height: 44px;
+	border-radius:5px;
+	margin:30px auto 0 auto;
+}
+
+.bs_item{
+	width: 100%;
+	box-sizing:border-box;
+	text-align:justify;
+	margin:0 auto;
+	padding:10px;	
+	text-align:left;	
+	height: auto;
+}
+.bs_item:last-child{
+	border:0;
+}
+.bs_item img{
+	display: block;
+	width: 180px;
+	height: 180px;
+	float: none;
+	margin:0 auto;
+}
+.bs_item dl{
+	padding:5px 0 0 0;
+	width: 100%;
+	float: none;
+}
+.bs_item dt{
+	height: auto;
+	line-height: 30px;
+	font-size:16px;
+	color:#363636;
+}
+.bs_item dd{
+	line-height: 24px;
+	text-align:justify;
+}
+.hm_bs{
+	background:#f5f5f5;
+	padding:20px 0 30px 0;
+}
+.hm_bs .more{
+	margin:20px auto 0 auto;
+}
+.hm_com{
+	padding-top:0;
+}
+.hm_com .title{
+	padding:0 10px;
+}
+.hm_com a{		
+	border-radius:3px;
+	padding:0 20px;
+	min-width: 100px;	
+	margin:0 20px 10px 20px;
+}
+
+.hm_cy .title{
+	padding:0 10px;
+}
+.hm_cy .s_list{
+	width: 100%;
+}
+.cy_item{
+	float: left;
+	display: inline-block;
+	width: 46%;
+	height: 60px;
+	text-align: center;
+	border:1px dashed #e5e5e5;
+	margin:0 2% 3% 2%;
+	box-sizing:border-box;
+}
+.hm_cy{
+	padding-bottom:0;
+}
+.hm_jz{
+	padding:5px 0;
+}
+.hm_jz .title{
+	height: auto;
+	line-height: 20px;
+	padding:10px 20px;
+	font-size:12px;		
+}
+.hm_jz .title strong{
+	font-size:14px;
+	
+}
+
+.hm_jz .s_list{
+	width: 100%;
+}
+.jz_item{
+	width: 90%;
+	height: 148px;
+	float: none;
+	margin:0 auto 10px auto;
+}
+.jz_item .code{
+	display: block;
+	width: 116px;
+	height: 116px;
+	float: left;
+	margin:15px 0 0 15px;
+}
+.jz_item dl{
+	float: right;
+	height: 148px;
+	border-left:1px solid #e5e5e5;
+	width: 88px;
+	padding:0 10px;
+}
+.jz_item dt{
+	height: 40px;
+	line-height: 40px;
+	padding-top:13px;
+	font-weight: bold;
+}
+.jz_item dd{
+	width: 88px;
+	word-break:break-all;	
+	font-size:12px;
+	line-height: 22px;
+}
+
+.footer{
+	padding:15px 10px;
+}
+.ft_left{
+	float:none;
+	width: 100%;	
+	padding-top:0;
+}
+
+.ft_inf{
+	float: none;
+	width: 100%;
+	line-height: 34px;
+	padding-top:10px;
+}
+.ft_code{
+	float: none;
+	width: 100%;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-right:0;
+}
+
+/*hm 首页*/
+
+
+/* 手机 mobile end*/	
+}
